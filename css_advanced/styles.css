@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-weight: 500;
+  font-family: "Source Code Pro", serif
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Ensure full width */
+  height: 64rem;
+  height: fit-content;
+  /* Full screen height */
+  min-height: 100vh;
+  background-image: url("images/Object.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll
+}
+
+
+/* Styles the navigation bar */
+nav {
+  display: flex;
+  /* Enables flexbox */
+  justify-content: space-between;
+  /* Logo on left, links on right */
+  align-items: center;
+  /* Aligns items vertically */
+  padding: 10px 20px;
+  /* Adds space around */
+  position: absolute;
+  /* Places nav at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Ensures full width */
+  background: none;
+  /* Optional: Adds background */
+}
+
+/* Styles the logo */
+nav img {
+  height: 50px;
+  /* Adjust logo size */
+}
+
+/* Removes default list styling */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Aligns items in a row */
+}
+
+/* Styles each list item */
+nav ul li a {
+  margin-left: 30px;
+  /* Adds space between menu items */
+}
+
+/* Styles the links */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centers everything horizontally */
+  justify-content: center;
+  /* Centers vertically */
+  height: 5vh;
+  /* Makes it take full viewport height */
+  text-align: center;
+  margin-top: 50px;
+  /* Large space below the header */
+}
+
+.hero-section {
+  font-size: 100px;
+  /* Large text */
+  margin-bottom: 10px;
+  /* Small gap between h1 and spans */
+  color: white;
+}
+
+/* Ensures spans are in a row */
+.hero-section .span-container {
+  display: flex;
+  /* Aligns spans in a row */
+  justify-content: center;
+  /* Centers them horizontally */
+  gap: 40px;
+  /* Adds space between spans */
+  width: 100%;
+  /* Ensures they align properly */
+}
+
+/* Styles each span */
+.hero-section span {
+  font-size: 24px;
+  /* Adjust text size */
+  font-weight: bold;
+  display: flex;
+  /* Ensures spans stay inline */
+}
+
+/* Styles the button */
+.hero-section button {
+  margin-top: 20px;
+  /* Small gap below spans */
+  padding: 12px 24px;
+  /* Button size */
+  font-size: 18px;
+  background: #c271ff;
+  /* Button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.learn-from-pros {
+  margin-top: 20px;
+  /* Adjust the space between the button and the h2 */
+  text-align: center;
+  /* Centers the h2 */
+}
+
+.learn-from-pros h2 {
+  margin-top: 30vh;
+  /* Adds a small gap between the button and the h2 */
+  text-align: center;
+  /* Centers the h2 */
+  font-size: 36px;
+  /* Adjust text size */
+  font-weight: bold;
+  /* Make it bold */
+  color: white;
+  /* Change text color */
+}
+
+.highlight {
+  color: purple;
+}
+
+/* Container that holds all profile divs */
+.profiles-container {
+  display: flex;
+  /* Aligns child divs in a row */
+  justify-content: center;
+  /* Centers them horizontally */
+  gap: 40px;
+  /* Adds space between profile divs */
+  flex-wrap: wrap;
+  /* Ensures responsiveness */
+}
+
+/* Individual profile styling */
+.profiles {
+  display: flex;
+  flex-direction: column;
+  /* Aligns items vertically */
+  align-items: center;
+  /* Centers items horizontally */
+  text-align: center;
+  width: 200px;
+  /* Controls the size of each profile */
+  margin-top: 80vh;
+}
+
+/* Image styling */
+.profiles img {
+  width: 100%;
+  /* Makes images responsive */
+  max-width: 70px;
+  /* Limits image size */
+  border-radius: 50%;
+  /* Makes images circular */
+}
+
+/* Name (h3) styling */
+.profiles h3 {
+  margin-top: 10px;
+  /* Small space below image */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Paragraph (p) styling */
+.profiles p {
+  margin-top: 5px;
+  /* Small space below h3 */
+  font-size: 14px;
+  color: gray;
+}
+
+.testimonial-section{
+  background-color: blueviolet;
+  background-attachment: scroll;
+}
+
+.tutorials-section{
+  background-color: white;
+  background-attachment: scroll;
+}
+
+.membership-section{
+  background-color: black;
+  background-attachment: scroll;
+}
+
+.faq-section{
+  background-color: white;
+  background-attachment: scroll;
+}
+
+footer {
+  background-color: #333;  /* Dark background */
+  color: white;  /* White text */
+  text-align: center;  /* Center-align text */
+  padding: 20px;
+}
