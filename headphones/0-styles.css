@@ -1,0 +1,105 @@
+.Headphones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Ensure full width */
+  height: 64rem;
+  height: fit-content;
+  /* Full screen height */
+  min-height: 100vh;
+  background-image: url("images/headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll
+}
+
+nav {
+  display: flex;
+  /* Enables flexbox */
+  justify-content: space-between;
+  /* Logo on left, links on right */
+  align-items: center;
+  /* Aligns items vertically */
+  padding: 10px 20px;
+  /* Adds space around */
+  position: absolute;
+  /* Places nav at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Ensures full width */
+  background: none;
+  /* Optional: Adds background */
+}
+
+/* Styles the logo */
+nav img {
+  height: 50px;
+  /* Adjust logo size */
+}
+
+/* Removes default list styling */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Aligns items in a row */
+}
+
+/* Styles each list item */
+nav ul li a {
+  margin-left: 30px;
+  /* Adds space between menu items */
+}
+
+/* Styles the links */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero-content h1 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 16px;
+}
+
+.hero-content p {
+  text-align: center;
+  color: antiquewhite;
+  font-size: small;
+}
+
+.hero-content button {
+  margin-top: 20px;
+  /* Small gap below spans */
+  padding: 12px 24px;
+  /* Button size */
+  font-size: 18px;
+  background: #d84f4f;
+  /* Button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+hero-text p {
+  text-align: center;
+   /*to place the text at the center*/
+  color: White;
+   /*color of the text*/
+  margin-top: 30px;
+    /* Small gap below button*/
+  margin-bottom: 30px;
+    /* Small gap above the bottom */
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+

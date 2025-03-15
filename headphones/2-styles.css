@@ -1,0 +1,25 @@
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Ensure full width */
+    height: 64rem;
+    height: fit-content;
+    /* Full screen height */
+    min-height: 100vh;
+    background-image: url("images/headphones_hero_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.about-us h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.about-us p {
+    text-align: center;
+    color: antiquewhite;
+}

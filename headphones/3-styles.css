@@ -1,0 +1,16 @@
+.contact {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact button {
+    background-color: rgb(219, 19, 19);
+    color: white;
+}

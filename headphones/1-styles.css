@@ -1,0 +1,60 @@
+.header h1 {
+    text-align: center;
+}
+
+.header p {
+    text-align: center;
+    color: black;
+}
+
+.content {
+    display: flex;
+    /* Aligns child divs in a row */
+    justify-content: center;
+    /* Centers them horizontally */
+    gap: 40px;
+    /* Adds space between profile divs */
+    flex-wrap: wrap;
+    /* Ensures responsiveness */
+    flex-direction: column;
+  }
+
+  .music {
+    display: flex;
+    flex-direction: column;
+    /* Aligns items vertically */
+    align-items: center;
+    /* Centers items horizontally */
+    text-align: center;
+    width: 200px;
+    /* Controls the size of each profile */
+    margin-top: 80vh;
+  }
+  
+  /* Image styling */
+  .music img {
+    width: 100%;
+    /* Makes images responsive */
+    max-width: 70px;
+    /* Limits image size */
+    border-radius: 50%;
+    /* Makes images circular */
+  }
+  
+  /* Name (h3) styling */
+  .music h3 {
+    margin-top: 10px;
+    /* Small space below image */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Paragraph (p) styling */
+  .music p {
+    margin-top: 5px;
+    /* Small space below h3 */
+    font-size: 14px;
+    color: gray;
+  }
+  
+  
